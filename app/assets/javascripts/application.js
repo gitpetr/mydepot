@@ -12,20 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require froala_editor.min.js
-//= require plugins/image.min.js
-//= require plugins/image_manager.min.js
-//= require plugins/colors.min.js
-//= require plugins/file.min.js
-//= require plugins/font_family.min.js
-//= require plugins/font_size.min.js
-//= require plugins/table.min.js
-//= require plugins/url.min.js
-//= require plugins/video.min.js
-//= require languages/ro.js
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
-$(function() {
-          $('#edit').froalaEditor()
-      });
