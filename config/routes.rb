@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'store/index'
+  root to: 'store#index', as: 'store'
   mount Ckeditor::Engine => '/ckeditor'
   resources :products
   # The priority is based upon order of creation: first created -> highest priority.
