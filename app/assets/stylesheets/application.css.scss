@@ -76,6 +76,21 @@
 
     background: #141;
 
+    form, div {
+        display: inline;
+      }
+    input {
+        font-size: small;
+      }
+    #cart {
+        font-size: smaller;
+        color: white;
+        table {
+          border-top: 1px dotted #595;
+          border-bottom: 1px dotted #595;
+          margin-bottom: 10px;
+        }
+        }
 
     ul {
 
@@ -100,4 +115,14 @@
 }
 
 }
+ }
+
+.carts {
+  .item_price, .total_line {
+      text-align: right;
+      }
+  .total_line .total_cell {
+      font-weight: bold;
+      border-top: 1px solid #595;
+  }
  }
